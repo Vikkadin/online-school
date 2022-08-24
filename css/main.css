@@ -877,8 +877,7 @@ a {
   .packages__list {
     -ms-grid-columns: (1fr)[8];
     grid-template-columns: repeat(8, 1fr);
-    padding: 60px;
-    /* gap: 40px; */
+    padding: 40px;
   }
 }
 .packages__item {
