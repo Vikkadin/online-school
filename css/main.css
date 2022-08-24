@@ -220,16 +220,22 @@ a {
   color: var(--dark-color);
   text-transform: capitalize;
 }
+
 @media (max-width: 768px) {
   .section-title {
     line-height: 60px;
   }
 }
+
 @media (max-width: 576px) {
   .section-title {
     font-size: 30px;
     line-height: 42px;
   }
+
+ .hero__title {
+  text-align: center;
+ }
 }
 
 .tooltip {
