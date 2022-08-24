@@ -220,13 +220,11 @@ a {
   color: var(--dark-color);
   text-transform: capitalize;
 }
-
 @media (max-width: 768px) {
   .section-title {
     line-height: 60px;
   }
 }
-
 @media (max-width: 576px) {
   .section-title {
     font-size: 30px;
@@ -880,7 +878,7 @@ a {
     -ms-grid-columns: (1fr)[8];
     grid-template-columns: repeat(8, 1fr);
     padding: 60px;
-    gap: 40px;
+    /* gap: 40px; */
   }
 }
 .packages__item {
